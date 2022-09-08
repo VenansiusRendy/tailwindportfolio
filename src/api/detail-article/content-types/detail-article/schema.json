@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "detail_articles",
+  "info": {
+    "singularName": "detail-article",
+    "pluralName": "detail-articles",
+    "displayName": "detail-article",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "date": {
+      "type": "date"
+    },
+    "header": {
+      "type": "string"
+    },
+    "preview": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}
